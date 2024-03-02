@@ -1,0 +1,402 @@
+/* * {
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+
+}	
+.hero{
+	width:100%;
+} */
+
+.topnav {
+	background-color: white;
+	font-size: 25px;
+	height: 100%;
+	display: flex;
+	padding: 10px 12px;
+	transition: 2s;
+
+
+}
+
+a {
+
+	text-align: center;
+	width: 20%;
+	margin-right: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	position: relative;
+	color: black;
+
+}
+
+
+.topnav a:hover { 
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+/* .row{
+	width:90%;
+	height:100vh;
+	margin:auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.col{
+	flex-basis:45%;
+
+}
+.slider{
+	height:80vh;
+	display:flex;
+}
+.product img{
+	height:19hv;
+	margin-bottom:9px;
+	cursor:pointer;
+}
+.preview img{
+		height:100%;
+} */
+
+main {
+	width: 81%;
+	float: left;
+}
+
+.main-aside {
+	margin-top: 50px;
+	width: 18%;
+	height: 2400px;
+	float: right;
+	border: 2px black;
+	border-style: inherit;
+	background-color: lightblue;
+}
+
+.brand-heading {
+	font-size: 50px;
+	color: black;
+	margin-left: 590px;
+	font-weight: bolder;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.item-one {
+	display: flex;
+	margin-top: 20px;
+}
+
+.item-two {
+	display: flex;
+	padding-left: 310px;
+	margin-top: 20px;
+}
+
+.brand2-heading {
+	font-size: 50px;
+	color: black;
+	margin-left: 550px;
+	font-weight: bolder;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-top: 35px;
+}
+
+.item-three {
+	display: flex;
+	margin-top: 20px;
+}
+
+.item-four {
+	display: flex;
+	padding-left: 310px;
+	margin-top: 20px;
+}
+
+.container{
+	position: relative;
+	width: 110%;
+}
+
+img {
+	margin-left: auto;
+	margin-right: 10px;
+	margin-left: 70px;
+}
+
+.img {
+	border: 4px solid goldenrod;
+	transition: 0.3s;
+	opacity: 1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.container:hover .image{
+	opacity: 0.3;
+}
+
+.container:hover .middle{
+	opacity: 1;
+}
+
+.text-hover{
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	padding: 16px 24px;
+	position:relative;
+}
+
+.img:hover{
+	opacity: 0.5;
+	/* transform: scale(1.09); */
+}
+#p-1 {
+	font-size: x-large;
+	font-weight: bolder;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-left: 230px;
+}
+
+#item-btn {
+	font-size: large;
+	font-family: monospace;
+	transition-duration: 0.4s;
+	border-radius: 12px;
+	height: 40px;
+	cursor: pointer;
+	margin-left: 240px;
+	text-align: center;
+	background-color: rgb(18, 18, 95);
+	color: white;
+}
+
+#item-btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#item-btn span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#item-btn:hover span {
+	padding-right: 25px;
+}
+
+#item-btn:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+hr{
+	width: 1080px;
+	height: 3px;
+	background-color: black;
+}
+
+.footer{
+    width:100%;
+    background:black;
+    color:white;
+    display:flex;
+    padding:100px 2%;
+    align-items: center;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow:2;
+    align-items: center;
+    margin-right:20px ;
+
+    
+}
+.footer div h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    margin-left: 80px;
+    position: sticky;
+}
+.col-3{
+    text-decoration: none;
+    margin-right: 120px;
+}
+form .s1{
+    width: 400px;
+    height:45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline:none;
+    border: none;
+}
+form .pe2{
+    background: transparent;
+    border:2px solid #fff;
+    border-radius: 30px;
+    padding:10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    color:white;
+    scale: 1;
+    transition: 1s;
+}
+
+.pe2:hover{
+    background-color: gray;
+    transition: 1s;
+
+}
+#p-aside-1{
+	font-style: inherit;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: center;
+	color: rgb(88, 85, 85);
+	padding: 0;
+	margin: 0;
+}
+
+#p-aside-1-1{
+	font-style: oblique;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 50px;
+	text-align: center;
+	padding: 8px;
+	margin: 0;
+}
+
+#aside-soni{
+	color: rgb(203, 40, 40);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#aside-taple{
+	color: rgb(203, 40, 40);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding-bottom: 5px;
+}
+
+#sign-up{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#dis-value{
+	font-size: 30px;
+	font-weight: bolder;
+	color: red;
+	text-align: center;
+}
+
+#aside-hr{
+	width: 210px;
+}
+select{
+    background: transparent;
+    font-style: none;
+    text-align: center;
+    width: 20%;
+    height:10%;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    margin-top: 2px;
+    margin-right: 15px;
+    margin-left: 15px;
+    align-content: center;
+
+}
+
+#ol-product{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: x-large;
+}
+
+.highlight{
+	color: red;
+	font-weight: bolder;
+}
+
+.container {
+	display: flex;
+}
+
+.main-content {
+	flex: 2;
+	padding: 20px;
+}
+
+.sidebar {
+	flex: 1;
+	background-color: #52a9bb;
+	padding: 20px;
+	margin-right: 27px;
+}
+
+/* Review Section Styles */
+.reviews {
+	margin-top: 20px;
+}
+
+.review {
+	border-bottom: 1px solid #171717;
+	margin-bottom: 10px;
+}
+
+.author {
+	font-style: italic;
+	color: #555;
+}
+
+/* Sidebar Review Section Styles */
+.sidebar-reviews {
+	margin-top: 20px;
+}
+
+.sidebar-review {
+	margin-bottom: 10px;
+}
+body{
+	background-color: azure;
+}

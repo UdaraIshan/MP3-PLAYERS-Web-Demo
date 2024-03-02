@@ -1,0 +1,313 @@
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 380px;
+    float: left;
+    /* background-color: #f4f4f4; */
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-image: url("../images/about.jpg");
+}
+
+.topnav {
+    color: black;
+    font-size: 25px;
+    height: 100%;
+    display: flex;
+    padding: 10px 12px;
+
+}
+
+a {
+    text-align: center;
+    width: 20%;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    color: black;
+
+
+}
+
+.topnav a:hover {
+ transform: scale(1.5);
+ transition: 1s;
+
+}
+
+body {
+    background-color: white;
+}
+
+img {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.title-txt {
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.P1 {
+    text-align: center;
+    font-size: large;
+}
+
+p a:hover {
+    color: goldenrod;
+}
+
+#b1 {
+    float: left;
+    width: 65%;
+    height: 300px;
+    border: 4px solid goldenrod;
+    margin-top: 20px;
+
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(80, 80, 167);
+    color: white;
+
+}
+
+#b2 {
+    float: right;
+    width: 65%;
+    height: 300px;
+    border: 4px solid goldenrod;
+    margin-top: 20px;
+    padding-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(80, 80, 167);
+    color: white;
+}
+
+#b3 {
+    float: left;
+    width: 65%;
+    height: 300px;
+    border: 4px solid goldenrod;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(80, 80, 167);
+    color: white;
+
+}
+
+#b4 {
+    float: right;
+    width: 65%;
+    height: 300px;
+    border: 4px solid goldenrod;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(80, 80, 167);
+    color: white;
+}
+
+.team-member {
+    display: flex;
+    margin-top: 20px;
+}
+
+.team-member figure {
+    margin-right: 10px;
+}
+
+.member-details {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-paragraph {
+    margin-top: 10px;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+/* Details that will be displayed on hover */
+.image-details {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 10px;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgb(225, 221, 221);
+    color: #572000;
+    padding: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show details on hover */
+/* #b1:hover .image-details {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+} */
+
+.table-heading {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+table,
+th,
+td {
+    border: 2px solid goldenrod;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#th-1 {
+    width: 150px;
+}
+
+th {
+    width: 90px;
+}
+
+#break {
+    font-weight: bold;
+    font-size: large;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(65, 194, 194);
+}
+
+th:nth-child(odd),
+td:nth-child(odd) {
+    background-color: rgb(65, 194, 194);
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#b1,
+#b3 {
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+#b2,
+#b4 {
+    animation: slideInFromRight 1s ease-in-out;
+}
+
+.footer{
+    width:100%;
+    background:black;
+    color:white;
+    display:flex;
+    padding:100px 2%;
+    align-items: center;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow:2;
+    align-items: center;
+    margin-right:20px ;
+
+    
+}
+.footer div h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    margin-left: 80px;
+    position: sticky;
+}
+.col-3{
+    text-decoration: none;
+    margin-right: 120px;
+}
+form .s1{
+    width: 400px;
+    height:45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline:none;
+    border: none;
+}
+form .pe2{
+    background: transparent;
+    border:2px solid #fff;
+    border-radius: 30px;
+    padding:10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    color:white;
+    scale: 1;
+    transition: 1s;
+}
+
+.pe2:hover{
+    background-color: gray;
+    transition: 1s;
+
+}
